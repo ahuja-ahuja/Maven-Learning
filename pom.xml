@@ -45,6 +45,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <!--adding this here to support the junit 5, previous version of surefire plugin doesn't support it -->
   <build>
     <plugins>
       <plugin>
